@@ -1,0 +1,44 @@
+.nav{
+position: fixed;
+top:0;
+height:60px; 
+padding: 10px 0;
+display: flex;
+width: 100%;
+/* background-color: #111; */
+justify-content: space-between;
+align-items: center;
+z-index: 1;
+transition: all 200ms;
+transition-timing-function: ease-in;
+}   
+
+.nav_black{
+    background-color: #111;
+}
+
+.nav_logo_container{
+    display: flex;
+    padding-left: 10px;
+}
+
+.nav_logo{
+    width:230px;
+    object-fit: contain;
+
+}
+
+.nav_signin{
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+}
+.nav_signin_btn{
+    outline: none;
+    background-color: red;
+    border:none;
+    color:white;
+    padding: 8px 17px;
+    border-radius: 5px;
+    font-size: 16px;
+}
